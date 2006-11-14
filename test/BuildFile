@@ -1,0 +1,12 @@
+<use name=boost>
+<use name=root>
+<use name=GeneratorInterface/MCatNLOInterface>
+<use name=FWCore/Framework>
+<use name=Foundation/PluginManager>
+<use name=FWCore/ParameterSet>
+<use name=CLHEP>
+<use name=root>
+<use name=SimDataFormats/HepMCProduct>
+<flags SEAL_PLUGIN_NAME="ZeeAnalyzer">
+<library file=ZeeAnalyzer.cc name=ZeeAnalyzer>
+</library>
