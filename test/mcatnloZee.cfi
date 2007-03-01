@@ -98,9 +98,9 @@ PSet MCatNLOParameters = {
 		'IL1CODE=1',
 		'IL2CODE=1',
 		# PDF group name; unused when linked to LHAPDF
-		'PDFGROUP=MRS',
+		'PDFGROUP=LHAPDF',
 		# PDF set number; use LHAGLUE conventions when linked to LHAPDF
-		'PDFSET=110',
+		'PDFSET=20060',
 		# Lambda_5, used in NLO computations. A negative entry returns the value
 		# resulting from PDF fit. 
 		# WARNING: negative entries may lead to inconsistent results when using 
@@ -124,7 +124,7 @@ PSet MCatNLOParameters = {
 		'WGTTYPE=1',
 		# set PDFLIBRARY=THISLIB, =PDFLIB, or =LHAPDF to obtain PDFs from our 
 		# private PDF library, from PDFLIB or from LHAPDF respectively
-		'PDFLIBRARY=THISLIB',
+		'PDFLIBRARY=HWLHAPDF',
 		# set HERPDF=DEFAULT to use HERWIG default PDFs, HERPDF=EXTPDF to use 
 		# the same PDFs as used in the NLO; the setting of this parameter is 
 		# independent of the setting of PDFLIBRARY
