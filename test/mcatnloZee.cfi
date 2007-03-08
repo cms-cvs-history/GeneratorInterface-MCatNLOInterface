@@ -6,6 +6,7 @@ PSet HerwigParameters = {
 	
 	vstring defaultHerwig = {
 # this sould be usually empty. making changes here might override important settings from mc@nlo
+# except for Jimmy settings ...
 	}
 	}
 
