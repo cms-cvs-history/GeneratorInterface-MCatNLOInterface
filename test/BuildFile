@@ -5,6 +5,7 @@
 <use name=Foundation/PluginManager>
 <use name=FWCore/ParameterSet>
 <use name=CLHEP>
+<use name=hepmc>
 <use name=root>
 <use name=SimDataFormats/HepMCProduct>
 <flags SEAL_PLUGIN_NAME="ZeeAnalyzer">

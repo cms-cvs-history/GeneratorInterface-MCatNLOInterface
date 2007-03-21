@@ -9,11 +9,13 @@
 
 #include "FWCore/ParameterSet/interface/ParameterSet.h"
 
-#include "CLHEP/HepMC/WeightContainer.h"
-#include "CLHEP/HepMC/GenEvent.h"
-#include "CLHEP/HepMC/GenParticle.h"
+#include "HepMC/WeightContainer.h"
+#include "HepMC/GenEvent.h"
+#include "HepMC/GenParticle.h"
 
 #include "SimDataFormats/HepMCProduct/interface/HepMCProduct.h"
+
+#include "DataFormats/Math/interface/LorentzVector.h"
 
 #include "TH1D.h"
 #include "TFile.h"
