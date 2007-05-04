@@ -1,6 +1,5 @@
 <use name=boost>
 <use name=root>
-<use name=GeneratorInterface/MCatNLOInterface>
 <use name=FWCore/Framework>
 <use name=FWCore/PluginManager>
 <use name=FWCore/ParameterSet>
