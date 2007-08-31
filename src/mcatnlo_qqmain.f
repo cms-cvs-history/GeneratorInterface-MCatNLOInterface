@@ -3084,7 +3084,6 @@ c
         endif
         call getx1x2(tau,ycm0)
         call getmqq(tau,ycm0,i0)
-        write(*,*) 'storing event'
         call store_evenqq(iunit,xone)
       endif
       return
