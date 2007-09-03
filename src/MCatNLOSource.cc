@@ -86,6 +86,9 @@ MCatNLOSource::MCatNLOSource( const ParameterSet & pset, InputSourceDescription 
       <<" Number of input events not set: Either use maxEvents input > 0 or numHardEvents > maxEvents output."; 
 
   fstbases.basesoutput = mcatnloVerbosity_;
+
+  if(numEvents_ < maxEvents()) numEvents_=maxEvents();
+
   header_str << "   MC@NLO verbosity level         = " << fstbases.basesoutput << "\n";
   header_str << "   Herwig verbosity level         = " << herwigVerbosity_ << "\n";
   header_str << "   HepMC verbosity                = " << herwigHepMCVerbosity_ << "\n";
