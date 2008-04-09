@@ -132,7 +132,7 @@ PSet MCatNLOParameters = {
 		'HERPDF=EXTPDF',
 		# prepend this string to prefixes to avoid storage problems
 		# leave blank to store event and data files in the running directory
-		'SCRTCH=output/',
+#		'SCRTCH=output/',
 		# set the following variable equal to the name of the directory where
 		# the local version of LHAPDF is installed. We assume that the library,
 		# PDF sets, and configuration script are located in lib/, 
