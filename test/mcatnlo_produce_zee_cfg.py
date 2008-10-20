@@ -4,6 +4,11 @@ process = cms.Process("TEST")
 process.maxEvents = cms.untracked.PSet(
     output = cms.untracked.int32(100)
 )
+
+#
+# NOTE: it's a MANDATORY that the 2 parameters match, ECM and comEnergy
+#       a mismatch will result in job abort on inconsistent init
+#
 process.source = cms.Source("MCatNLOSource",
     HerwigParameters = cms.PSet(
         defaultHerwig = cms.vstring(),
@@ -14,9 +19,10 @@ process.source = cms.Source("MCatNLOSource",
     herwigHepMCVerbosity = cms.untracked.bool(False),
     doHardEvents = cms.untracked.bool(True),
     herwigVerbosity = cms.untracked.int32(0),
+    comEnergy = cms.untracked.double(10000.),
     MCatNLOParameters = cms.PSet(
         mcatnloReadin = cms.vstring('TWIDTH=1.4', 
-            'ECM=14000', 
+            'ECM=10000', 
             'FREN=1', 
             'FFACT=1', 
             'HVQMASS=175', 
