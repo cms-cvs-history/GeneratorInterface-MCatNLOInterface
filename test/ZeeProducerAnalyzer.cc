@@ -7,7 +7,7 @@
 //
 // Original Author:  Fabian Stoeckli
 //         Created:  Tue Nov 14 13:43:02 CET 2006
-// $Id: ZeeProducerAnalyzer.cc,v 1.6 2007/03/21 15:08:40 fabstoec Exp $
+// $Id: ZeeProducerAnalyzer.cc,v 1.1 2008/04/09 16:09:49 marafino Exp $
 //
 //
 
@@ -34,7 +34,7 @@
 #include "HepMC/GenEvent.h"
 #include "HepMC/GenParticle.h"
 
-#include "SimDataFormats/HepMCProduct/interface/HepMCProduct.h"
+#include "SimDataFormats/GeneratorProducts/interface/HepMCProduct.h"
 
 #include "TH1D.h"
 #include "TFile.h"
