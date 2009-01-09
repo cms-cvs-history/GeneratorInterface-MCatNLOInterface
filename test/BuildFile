@@ -5,7 +5,7 @@
 <use name=FWCore/ParameterSet>
 <use name=CLHEP>
 <use name=hepmc>
-<use name=SimDataFormats/HepMCProduct>
+<use name=SimDataFormats/GeneratorProducts>
 <flags EDM_PLUGIN=1>
 <library file=ZeeAnalyzer.cc name=ZeeAnalyzer>
 </library>
