@@ -9,3 +9,5 @@
 <flags EDM_PLUGIN=1>
 <library file=ZeeAnalyzer.cc name=ZeeAnalyzer>
 </library>
+<library file=WWeeAnalyzer.cc name=WWeeAnalyzer>
+</library>
